@@ -6,6 +6,7 @@
   "scripts": {
     "start": "parcel src/index.html --open",
     "dev": "npm run start",
+    "buid": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
