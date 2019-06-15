@@ -1,4 +1,81 @@
+@import './reset.css';
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+
 body {
-    background: #3D3438;
-    color: white;
+    background: #FFFFFF;
+    color: #3D3438;
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+header {
+    padding: 1rem 0;
+}
+
+p {
+    /* margin-bottom: 1.5rem; */
+}
+
+.site-header {
+    font-weight: 700;
+    font-size: 2.25rem;
+    /* margin: 1rem 0; */
+}
+
+.site-description {
+    padding: 2rem 0;
+}
+
+.site-sub-head {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.main-width {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.divider-bottom {
+    position: relative;
+}
+
+.divider-bottom::after {
+    background: linear-gradient(90deg, #E26DEC, #E59364) no-repeat;
+    content: '';
+    display: block;
+    height: 5px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+main {
+    padding: 1rem 0;
+}
+
+.project-list-item {
+    display: flex;
+    padding: 2rem 0;
+    border-bottom: solid 1px #C4C4C4;
+}
+
+.project-list-item-text-wrap {
+    margin-left: 1rem;
+}
+
+.project-list-item-date {
+    font-weight: 700;
+    font-size: 0.75rem;
+}
+
+.project-list-item-title {
+    margin-top: 1rem;
+}
+
+a.project-list-item-link, a.project-list-item-link:visited {
+    color: inherit;
 }
