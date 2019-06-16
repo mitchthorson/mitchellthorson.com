@@ -1,4 +1,5 @@
 @import './reset.css';
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
 
 body {
     background: #FFFFFF;
@@ -10,10 +11,6 @@ body {
 
 header {
     padding: 1rem 0;
-}
-
-p {
-    /* margin-bottom: 1.5rem; */
 }
 
 .site-header {
@@ -62,6 +59,13 @@ main {
     border-bottom: solid 1px #C4C4C4;
 }
 
+.project-list-item-thumbnail {
+    width: 25%;
+    height: auto;
+    align-self: center;
+    min-width: 150px;
+}
+
 .project-list-item-text-wrap {
     margin-left: 1rem;
 }
@@ -75,6 +79,14 @@ main {
     margin-top: 1rem;
 }
 
-a.project-list-item-link, a.project-list-item-link:visited {
+p {
+    margin-bottom: 1rem;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+a, a {
     color: inherit;
 }
