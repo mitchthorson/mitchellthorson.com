@@ -80,6 +80,8 @@ main {
 
 .project-list-item-title {
     margin-top: 1rem;
+    font-size: 1.25rem;
+    max-width: 30em;
 }
 
 p {
@@ -92,4 +94,8 @@ p:last-child {
 
 a, a {
     color: inherit;
+}
+
+footer {
+    padding: 1em 0;
 }
