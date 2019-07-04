@@ -6,7 +6,9 @@
   "scripts": {
     "start": "parcel src/index.html --open",
     "dev": "npm run start",
-    "build": "parcel build src/index.html",
+    "clean": "rm -rf dist",
+    "build-sketchbook": "cd src/sketchbook && npm run export && cp -r __sapper__/export/sketchbook ../../dist/sketchbook",
+    "build": "npm run clean && parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
