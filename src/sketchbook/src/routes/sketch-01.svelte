@@ -9,6 +9,5 @@
   export let pageData;
 </script>
 <div>
-  <h1>sketch-01</h1>
   <ShapeViz />
 </div>
