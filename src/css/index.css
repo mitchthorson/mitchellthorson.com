@@ -9,6 +9,13 @@ body {
     line-height: 1.2;
 }
 
+@media (prefers-color-scheme: dark) {
+	body {
+		background: #0F070B;
+		color: #ffffff;
+	}
+}
+
 header {
     padding: 1rem 0;
 }
