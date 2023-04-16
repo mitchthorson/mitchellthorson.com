@@ -1,6 +1,6 @@
 {
-	"name": "svelte-gen",
-	"version": "0.0.1",
+	"name": "mitchellthorson.com",
+	"version": "2.0.0-dev.0",
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
