@@ -2,7 +2,9 @@
   import projects from "$data/projects.yml";
   import social from "$data/social.yml";
   import Meta from "$components/Meta.svelte";
-	import "$lib/index.css";
+	import ProjectList from "$components/ProjectList/ProjectList.svelte";
+	import SocialBox from "$components/SocialBox/SocialBox.svelte";
+	import "$styles/index.css";
 </script>
 
 <Meta />
@@ -17,26 +19,10 @@
       >Urban Institute</a
     >.
   </p>
-  <p>
-    {#each social as link}
-      <a href={link.url} class="social-link" target="_blank">{link.platform}</a>&nbsp;
-    {/each}
-  </p>
+	<SocialBox social_links={social}/>
 </section>
 <main class="main-width">
   <h2 class="site-sub-head">selected work</h2>
-  <ul class="project-list">
-    {#each projects as project}
-      <li class="project-list-item">
-        <img src={project.image} alt={project.alt_text} class="project-list-item-thumbnail" />
-        <div class="project-list-item-text-wrap">
-          <h4 class="project-list-item-date">{project.date}</h4>
-          <a href={project.url} class="project-list-item-link" target="_blank">
-            <h3 class="project-list-item-title">{project.title}</h3></a
-          >
-        </div>
-      </li>
-    {/each}
-  </ul>
+	<ProjectList {projects} show_images={false}/>
 </main>
 <footer class="main-width">&copy;Mitchell Thorson</footer>
