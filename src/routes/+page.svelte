@@ -2,7 +2,7 @@
   import projects from "$data/projects.yml";
   import social from "$data/social.yml";
   import Meta from "$components/Meta.svelte";
-  import "$lib/index.css";
+	import "$lib/index.css";
 </script>
 
 <Meta />
