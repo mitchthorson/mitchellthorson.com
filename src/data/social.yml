@@ -1,0 +1,8 @@
+- platform: Twitter
+  url: https://twitter.com/mitchthorson
+- platform: Github
+  url: https://www.github.com/mitchthorson
+- platform: Email
+  url: mailto:mitch.thorson@protonmail.com
+- platform: Keybase
+  url: https://keybase.io/mthorson
