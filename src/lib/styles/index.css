@@ -1,0 +1,26 @@
+@import "./reset.css";
+@import "./fonts.css";
+
+:root {
+	--color-accent: #1CAE56;
+}
+
+body {
+  background: #FAE5D9;
+  color: #3d3438;
+  font-family: "Iosevka", monospace;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+a {
+	color: var(--color-accent);
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #161F1A;
+    color: #FAE5D9;
+  }
+}
+
