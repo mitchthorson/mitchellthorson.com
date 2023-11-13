@@ -166,3 +166,10 @@
   alt_text: project thumb
   organization: USA Today
   highlight: true
+- title: "Pumped Dry: The global crisis of vanishing groundwater"
+  date: 2015-12-10
+  url: http://web.archive.org/web/20160105095636/https://www.usatoday.com/pages/interactives/groundwater/
+  image: img/pumped_dry.png
+  alt_text: Map of aquifer water level change in North America
+  organization: USA Today
+  highlight: true

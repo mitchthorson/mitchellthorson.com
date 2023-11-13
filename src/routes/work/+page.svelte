@@ -3,6 +3,6 @@
 	import projects from "$data/projects.yml";
 </script>
 <main class="main-width">
-	<h1>Selected work</h1>
+	<h2 class="site-subhead">Selected work</h2>
 	<ProjectList {projects} show_images />
 </main>

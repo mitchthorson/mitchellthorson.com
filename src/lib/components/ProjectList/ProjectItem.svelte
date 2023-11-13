@@ -28,7 +28,7 @@
     <h3 class="project-item-title">
       <a href={project.url} class="project-list-item-link" target="_blank">{project.title}</a>
     </h3>
-    <p class="project-item-date">
+    <p class="project-item-info">
       {formatTime(project.date)} <span class="project-org">{project.organization}</span>
     </p>
   </div>
@@ -38,9 +38,14 @@
   .project-item-thumbnail {
     width: 100%;
   }
+	.project-item-text-wrap {
+		margin-top: 1rem;
+		font-size: 0.8em;
+		line-height: 1.2;
+	}
   .project-item-title {
     font-weight: bold;
-		margin-bottom: 0.25em;
+		margin-bottom: 0.5em;
   }
   .project-org {
     font-style: italic;
