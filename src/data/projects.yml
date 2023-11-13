@@ -1,8 +1,15 @@
+- title: Is Federal Infrastructure Spending Advancing Racial and Economic Equity?
+  date: 2023-10-25
+  url: https://apps.urban.org/features/infrastructure-spending-states-counties/
+  image: img/federal_infrastructure.png
+  alt_text: A map of federal infrastructure spending by state
+  organization: Urban Institute
+  highlight: true
 - title: LeBron James has captured the scoring title. We visualized every shot.
   date: 2023-02-08
   url: https://www.usatoday.com/in-depth/graphics/2023/02/08/lebron-james-career/11018976002/
   image: img/lebron.png
-  alt_text: Charts and maps showing mass killings incidents in the U.S. since 2013.
+  alt_text: Heatmap charts of LeBron James's fieldgoal attempts by season.
   organization: USA Today
   highlight: true
 - title: Mass killings database reveals trends, details and anguish in every US event since 2006
