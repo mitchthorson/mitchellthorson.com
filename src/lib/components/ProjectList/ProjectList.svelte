@@ -25,12 +25,20 @@
 </ul>
 
 <style>
-  @media (min-width: 540px) {
+  @media (min-width: 540px) and (max-width: 767px) {
+    .project-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 2.25rem;
+      row-gap: 2.25rem;
+    }
+  }
+  @media (min-width: 768px) {
     .project-list {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      column-gap: 2rem;
-      row-gap: 2rem;
+      column-gap: 2.25rem;
+      row-gap: 2.25rem;
     }
   }
 </style>
