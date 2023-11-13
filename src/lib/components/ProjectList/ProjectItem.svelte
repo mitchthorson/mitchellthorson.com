@@ -22,7 +22,7 @@
 
 <li class="project-item">
   {#if show_images}
-    <img src={project.image} alt={project.alt_text} class="project-list-item-thumbnail" />
+    <img src={project.image} alt={project.alt_text} class="project-item-thumbnail" />
   {/if}
   <div class="project-item-text-wrap">
     <h3 class="project-item-title">
@@ -35,11 +35,8 @@
 </li>
 
 <style>
-  .project-item {
-    margin: 3rem 0;
-  }
   .project-item-thumbnail {
-    width: 180px;
+    width: 100%;
   }
   .project-item-title {
     font-weight: bold;

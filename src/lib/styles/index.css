@@ -3,11 +3,14 @@
 
 :root {
 	--color-accent: #1CAE56;
+  --color-background: #161F1A;
+  --color-main: #3d3438;
+	--content-width: 900px;
 }
 
 body {
-  background: #FAE5D9;
-  color: #3d3438;
+  background: --var(color-background);
+	color: var(--color-main);
   font-family: "Iosevka", monospace;
   font-size: 18px;
   line-height: 1.2;

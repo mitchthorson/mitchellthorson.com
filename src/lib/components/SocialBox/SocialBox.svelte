@@ -28,7 +28,8 @@
     /* padding: 1rem;*/
   }
   li {
-    margin: 0.25rem 0;
+    margin: 0 0 0 2rem;
+		text-indent: -1rem;
   }
   li::before {
     display: inline-block;
