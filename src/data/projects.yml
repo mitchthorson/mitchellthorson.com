@@ -1,10 +1,3 @@
-- title: Is Federal Infrastructure Spending Advancing Racial and Economic Equity?
-  date: 2023-10-25
-  url: https://apps.urban.org/features/infrastructure-spending-states-counties/
-  image: img/federal_infrastructure.png
-  alt_text: A map of federal infrastructure spending by state
-  organization: Urban Institute
-  highlight: true
 - title: LeBron James has captured the scoring title. We visualized every shot.
   date: 2023-02-08
   url: https://www.usatoday.com/in-depth/graphics/2023/02/08/lebron-james-career/11018976002/
@@ -17,13 +10,6 @@
   url: https://www.usatoday.com/in-depth/graphics/2022/08/18/mass-killings-database-us-events-since-2006/9705311002/
   image: img/mass_killings.png
   alt_text: Charts and maps showing mass killings incidents in the U.S. since 2013.
-  organization: USA Today
-  highlight: true
-- title: Our warming climate is having a dramatic impact on precipitation. What does the data tell us about your state?
-  image: img/rainfall-website-promo.png
-  alt_text: Charts and maps showing historical rainfall data in the U.S., as well as how climate change plays a role.
-  date: 2021-12-01
-  url: https://www.usatoday.com/in-depth/graphics/2021/11/30/climate-change-impact-on-rainfall-in-your-state-explained/6249484001/
   organization: USA Today
   highlight: true
 - title: "A vertical neighborhood: Floor-by-floor look at the lives lost and dreams shattered by Florida condo collapse"
