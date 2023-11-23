@@ -12,8 +12,14 @@ body {
   background: --var(color-background);
 	color: var(--color-main);
   font-family: "Iosevka", monospace;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 1.2;
+}
+
+@media(min-width: 768px) {
+  body {
+    font-size: 22px;
+  }
 }
 
 a {
