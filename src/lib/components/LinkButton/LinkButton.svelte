@@ -13,12 +13,12 @@
   .link-button {
     appearance: none;
     background: none;
-    border-radius: 3px;
     border: solid 1px var(--color-accent);
     padding: 1.5rem 1rem;
     cursor: pointer;
 		font-size: 1.2rem;
-		font-weight: bold;
+		font-weight: 700;
+    font-family: var(--font-family-main);
   }
 	a .link-button {
 		color: var(--color-accent);
