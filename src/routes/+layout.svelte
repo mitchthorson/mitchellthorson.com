@@ -6,7 +6,10 @@
 <Nav />
 <div class="content-wrap">
   <slot />
-	<footer class="main-width">&copy;2023 Mitchell Thorson</footer>
+  <footer class="main-width site-footer">
+    <p>&copy;2023 Mitchell Thorson</p>
+    <p><a href="/colophon">Colophon</a></p>
+  </footer>
 </div>
 
 <style>
@@ -14,5 +17,11 @@
     padding: 20px;
     margin: 0 auto;
     max-width: var(--content-width);
+  }
+
+  footer {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
   }
 </style>
