@@ -6,12 +6,13 @@
   --color-background: #161F1A;
   --color-main: #3d3438;
 	--content-width: 900px;
+  --font-family-main: Iosevka, monospace;
 }
 
 body {
   background: --var(color-background);
 	color: var(--color-main);
-  font-family: "Iosevka", monospace;
+  font-family: var(--font-family-main);
   font-size: 18px;
   line-height: 1.2;
 }

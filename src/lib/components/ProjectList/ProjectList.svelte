@@ -25,6 +25,11 @@
 </ul>
 
 <style>
+  .project-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 4rem;
+  }
   @media (min-width: 540px) and (max-width: 767px) {
     .project-list {
       display: grid;
