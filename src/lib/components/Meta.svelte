@@ -32,4 +32,7 @@
   />
   <meta name="twitter:site" content="@mitchthorson" />
   <meta name="twitter:creator" content="@mitchthorson" />
+
+  <!-- Mastodon verification -->
+  <link rel="me" href="https://mastodon.social/@mitchthorson">
 </svelte:head>
