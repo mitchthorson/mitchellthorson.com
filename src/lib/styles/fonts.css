@@ -30,7 +30,6 @@
   font-display: swap;
   src: url("/fonts/iosevka-bolditalic.woff2") format("woff2");
 }
-
 /* Iosevka Normal */
 @font-face {
   font-family: "Iosevka Extended";
