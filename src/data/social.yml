@@ -6,8 +6,8 @@
   url: https://twitter.com/mitchthorson
 - platform: Linkedin
   url: https://www.linkedin.com/in/mitchthorson/
-- platform: Bluesky
-  url: https://bsky.app/profile/mitchellthorson.com
+- platform: Mastodon
+  url: https://mastodon.social/@mitchthorson
 - platform: Keybase
   url: https://keybase.io/mthorson
 
