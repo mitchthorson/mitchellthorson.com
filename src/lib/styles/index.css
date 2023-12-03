@@ -6,7 +6,7 @@
   --color-background: #161F1A;
   --color-main: #3d3438;
 	--content-width: 900px;
-  --font-family-main: Iosevka, monospace;
+  --font-family-main: "Iosevka Extended", monospace;
 }
 
 body {
@@ -14,12 +14,12 @@ body {
 	color: var(--color-main);
   font-family: var(--font-family-main);
   font-size: 18px;
-  line-height: 1.2;
+  line-height: 1.5;
 }
 
 @media(min-width: 768px) {
   body {
-    font-size: 22px;
+    font-size: 20px;
   }
 }
 
@@ -37,6 +37,36 @@ a:hover {
 	font-weight: bold;
 	font-style: italic;
 	margin-bottom: 2rem;
+}
+
+p {
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+
+p.timestamp {
+  color: var(--color-accent);
+  font-style: italic;
+}
+
+h2 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
+ul {
+  margin-bottom: 2rem;
+}
+li {
+  margin: 0 0 0 2rem;
+  text-indent: -1rem;
+}
+li::before {
+  display: inline-block;
+  content: "-";
+  width: 1em;
 }
 
 @media (prefers-color-scheme: dark) {

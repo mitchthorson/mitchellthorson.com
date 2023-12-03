@@ -8,7 +8,6 @@
   <slot />
   <footer class="main-width site-footer">
     <p>&copy;2023 Mitchell Thorson</p>
-    <p><a href="/colophon">Colophon</a></p>
   </footer>
 </div>
 

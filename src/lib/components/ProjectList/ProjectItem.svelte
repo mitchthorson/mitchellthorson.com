@@ -35,6 +35,13 @@
 </li>
 
 <style>
+  li.project-item {
+    margin: 0;
+    text-indent: 0;
+  }
+  li.project-item::before {
+    content: none;
+  }
   .project-item-thumbnail {
     width: 100%;
   }
@@ -49,5 +56,8 @@
   }
   .project-org {
     font-style: italic;
+  }
+  .project-item-info {
+    margin: 0;
   }
 </style>

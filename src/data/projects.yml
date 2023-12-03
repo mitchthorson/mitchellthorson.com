@@ -82,6 +82,13 @@
   alt_text: Map showing the path of destruction of tornadoes in March of 2020 near Nashville, Tennessee
   organization: USA Today
   highlight: true
+- title: "US COVID-19 map: Tracking cases and deaths"
+  date: 2020-03-10
+  url: https://www.usatoday.com/in-depth/graphics/2020/03/10/us-coronavirus-map-tracking-united-states-outbreak/4945223002/
+  image: img/covid-tracker.png
+  alt_text: A chart showing the number of reported COVID-19 cases per day from March 1, 2020 through February 27, 2023.
+  organization: USA Today
+  highlight: true
 - title: The Chiefs and 49ers are in the Super Bowl. But Dallas Cowboys have the most ticket-selling power.
   date: 2020-01-31
   url: https://www.usatoday.com/in-depth/news/2020/01/31/super-bowl-teams-cant-match-dallas-cowboys-ticket-selling-power/4607508002/

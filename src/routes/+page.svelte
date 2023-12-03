@@ -11,7 +11,7 @@
 <section class="site-description main-width divider-bottom">
   <h2 class="site-subhead">Hi, I'm Mitchell Thorson</h2>
   <p>
-	I’m an award winning data visualization specialist, web developer and information designer interested in sharing knowledge and provoking curiosity. I am currently a lead data visualization engineer at the <a href="https://www.urban.org" target="_blank">Urban Institute</a>, where I help translate public policy research into charts, maps and interactive web tools. Previously I was a senior visual journalist on the <a href="https://www.usatoday.com/graphics" target="_blank">USA Today graphics team.</a>
+	I’m an award winning data visualization specialist, web developer and information designer interested in sharing knowledge and provoking curiosity. I work at the <a href="https://www.urban.org" target="_blank">Urban Institute</a>, where I help translate public policy research into charts, maps and interactive web tools. Previously I was a senior visual journalist on the <a href="https://www.usatoday.com/graphics" target="_blank">USA Today graphics team.</a>
   </p>
 	</section>
 	<section>
