@@ -19,8 +19,10 @@
   }
 
   footer {
-    margin-top: 4rem;
+    margin-top: 2rem;
+    padding-top: 2rem;
     display: flex;
     justify-content: space-between;
+    border-top: solid 1px var(--color-accent);
   }
 </style>
