@@ -59,7 +59,7 @@
   url: https://www.azcentral.com/in-depth/news/2020/08/26/heat-killing-more-people-cities-sizzle-hotter-temperatures/4553439002/
   image: img/rising_temps_image.png
   alt_text: Charts showing number of days above 90 degrees in various U.S. cities
-  organization: USA Today
+  organization: The Arizona Republic
   highlight: false
 - title: Tracking protests across the USA in the wake of George Floyd's death
   date: 2020-06-03
@@ -80,7 +80,7 @@
   url: https://www.tennessean.com/pages/interactives/news/graphics/march-2020-tornado-path-nashville-cookeville-putnam-tennessee/
   image: img/tennessee-tornadoes.png
   alt_text: Map showing the path of destruction of tornadoes in March of 2020 near Nashville, Tennessee
-  organization: USA Today
+  organization: The Tennessean
   highlight: true
 - title: "US COVID-19 map: Tracking cases and deaths"
   date: 2020-03-10
@@ -112,10 +112,10 @@
   highlight: true
 - title: Where will the West's next deadly wildfire strike? The risks are everywhere
   date: 2019-07-23
-  url: https://www.usatoday.com/in-depth/news/investigations/2019/07/22/wildfire-risks-more-than-500-spots-have-greater-hazard-than-paradise/1801629001/
+  url: https://www.azcentral.com/in-depth/news/investigations/2019/07/22/wildfire-risks-more-than-500-spots-have-greater-hazard-than-paradise/1801629001/
   image: img/wildfires_image.jpg
   alt_text: wildfire hazard potential
-  organization: USA Today
+  organization: The Arizona Republic
   highlight: true
 - title: The new race to the moon
   date: 2019-07-16
