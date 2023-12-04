@@ -5,6 +5,7 @@
 	--color-accent: #1CAE56;
   --color-background: #161F1A;
   --color-main: #3d3438;
+  --color-accent-light: rgba(28, 174, 86, .5);
 	--content-width: 900px;
   --font-family-main: "Iosevka Extended", monospace;
   --font-family-alt: Iosevka, monospace;
@@ -16,6 +17,17 @@ body {
   font-family: var(--font-family-main);
   font-size: 19px;
   line-height: 1.4;
+}
+
+
+::-moz-selection { /* Code for Firefox */
+  /* color: red; */
+  background: var(--color-accent-light);
+}
+
+::selection {
+  /* color: red; */
+  background: var(--color-accent-light);
 }
 
 @media(min-width: 768px) {
