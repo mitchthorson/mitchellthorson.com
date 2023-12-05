@@ -18,11 +18,27 @@
   export let show_images = true;
 
   const formatTime = timeFormat("%B %Y");
+
+  const image_base = "https://media.mitchellthorson.com/projects"
 </script>
 
 <li class="project-item">
   {#if show_images}
-    <img src={project.image} alt={project.alt_text} class="project-item-thumbnail" />
+    <picture class="project-item-thumbnail">
+      <!-- AVIF image for browsers that support AVIF -->
+      <source srcset="{image_base}/{project.image}.avif" type="image/avif">
+
+      <!-- WebP image for browsers that support WebP -->
+      <source srcset="{image_base}/{project.image}.webp" type="image/webp">
+
+      <!-- JPEG image for browsers that do not support WebP -->
+      <source srcset="{image_base}/{project.image}.jpg" type="image/jpeg">
+
+      <!-- Fallback image for browsers that do not support the <picture> element -->
+      <img src="{image_base}/{project.image}.jpg" alt={project.alt_text} width="600" height="600">
+    </picture>
+
+    <!-- <img src={project.image} alt={project.alt_text} class="project-item-thumbnail" /> -->
   {/if}
   <div class="project-item-text-wrap">
     <h3 class="project-item-title">
@@ -38,12 +54,18 @@
   li.project-item {
     margin: 0;
     text-indent: 0;
+    width: 100%;
   }
   li.project-item::before {
     content: none;
   }
   .project-item-thumbnail {
     width: 100%;
+    max-width: 100%
+  }
+  .project-item-thumbnail img {
+    max-width: 100%;
+    height: auto;
   }
 	.project-item-text-wrap {
 		margin-top: 1rem;

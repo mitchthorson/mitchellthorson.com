@@ -9,6 +9,7 @@
     "check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
     "lint": "prettier --plugin-search-dir . --check .",
+    "process-project-images": "./bin/process_project_images.sh",
     "format": "prettier --plugin-search-dir . --write ."
   },
   "devDependencies": {

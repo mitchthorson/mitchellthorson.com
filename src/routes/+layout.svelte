@@ -13,7 +13,7 @@
 
 <style>
   .content-wrap {
-    padding: 20px;
+    padding: 30px;
     margin: 0 auto;
     max-width: var(--content-width);
   }
@@ -25,4 +25,11 @@
     justify-content: space-between;
     border-top: solid 1px var(--color-accent);
   }
+
+  @media(min-width: 768px) {
+    .content-wrap {
+      padding: 20px;
+    }
+  }
+    
 </style>
