@@ -24,4 +24,10 @@
   nav p {
     margin-right: 10px;
   }
+  nav a {
+    text-decoration: none;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
 </style>

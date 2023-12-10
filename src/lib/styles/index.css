@@ -38,10 +38,6 @@ body {
 
 a {
 	color: var(--color-accent);
-	text-decoration: none;
-}
-
-a:hover {
 	text-decoration: underline;
 }
 
@@ -73,6 +69,11 @@ li::before {
   display: inline-block;
   content: "-";
   width: 1em;
+}
+
+code, pre {
+  background: rgba(28, 174, 86, 0.1);
+  padding: 0.25em;
 }
 
 @media (prefers-color-scheme: dark) {
