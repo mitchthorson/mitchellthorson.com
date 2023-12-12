@@ -1,6 +1,6 @@
 <script>
   import social from "$data/social.yml";
-	import SocialBox from "$components/SocialBox/SocialBox.svelte";
+  import SocialBox from "$components/SocialBox/SocialBox.svelte";
   import AwardTable from "$components/AwardTable/AwardTable.svelte";
   import awards from "$data/awards.yml";
   
@@ -22,7 +22,7 @@ Hello, welcome to my website! My name is Mitchell Thorson, and I'm a data visual
 
 My work spans disciplines but is almost always centered around organizing and sharing data or other facts and information via the medium of the internet. Currently, I am a Lead Data Visualization Engineer at the <a href="https://www.urban.org" target="_blank">Urban Institute</a>, where I collaborate with public policy experts, data scientists and communications staff to present the organization's research through charts, maps and interactive online tools.
 
-From 2014 – February 2023 I was a part of the <a href="https://www.usatoday.com/graphics" target="_blank">USA Today Graphics team</a>, where my work included a wide variety of [projects](work/). These ranged from working with GIS data to build <a href="https://www.tennessean.com/pages/interactives/news/graphics/march-2020-tornado-path-nashville-cookeville-putnam-tennessee/" target="_blank">custom interactive maps</a>, to building and maintaining automated data scrapers and pipelines that power live-updating <a href="https://www.usatoday.com/in-depth/graphics/2020/03/10/us-coronavirus-map-tracking-united-states-outbreak/4945223002/" target="_blank">online</a> <a href="https://www.usatoday.com/in-depth/graphics/2022/08/18/mass-killings-database-us-events-since-2006/9705311002/" target="_blank">presentations</a>, to analyzing and visualizing <a href="https://www.usatoday.com/in-depth/graphics/2023/02/08/lebron-james-career/11018976002/" target="_blank">27,000 of LeBron James' field goal attempts</a>. I also enjoyed building and maintaining tools and templates that were used by other members of the team to develop and publish custom projects to the web.
+From 2014 – February 2023 I was a part of the <a href="https://www.usatoday.com/graphics" target="_blank">USA Today Graphics team</a>, where my work included a wide variety of [projects](https://www.usatoday.com/staff/2646778001/mitchell-thorson/). These ranged from working with GIS data to build <a href="https://www.tennessean.com/pages/interactives/news/graphics/march-2020-tornado-path-nashville-cookeville-putnam-tennessee/" target="_blank">custom interactive maps</a>, to building and maintaining automated data scrapers and pipelines that power live-updating <a href="https://www.usatoday.com/in-depth/graphics/2020/03/10/us-coronavirus-map-tracking-united-states-outbreak/4945223002/" target="_blank">online</a> <a href="https://www.usatoday.com/in-depth/graphics/2022/08/18/mass-killings-database-us-events-since-2006/9705311002/" target="_blank">presentations</a>, to analyzing and visualizing <a href="https://www.usatoday.com/in-depth/graphics/2023/02/08/lebron-james-career/11018976002/" target="_blank">27,000 of LeBron James' field goal attempts</a>. I also enjoyed building and maintaining tools and templates that were used by other members of the team to develop and publish custom projects to the web.
 
 When I'm not working or hacking on a side project, I like to spend my time reading books, exploring NYC on foot or bike, hiking in the Hudson Valley and the Catskills, practicing my skills as a home cook and playing video games. 
 
@@ -42,7 +42,6 @@ If you'd like to send me an encrypted email, you can find my public PGP key with
 - Custom data visualization with D3.js.
 - Digital cartography with command line tools, desktop GIS software, and browser-based vector tile mapping tools.
 - Data analysis with R and Python.
-- Tinkering with Linux, learning a little bit about a lot of different programming languages, writing bespoke CLI tools and self-hosting as much of my data and digital life as possible...
 
 ## Awards
 

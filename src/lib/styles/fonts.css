@@ -40,7 +40,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("/fonts/Iosevka-Extended-subset.woff2") format("woff2");
+  src: url("/fonts/iosevka-extended-subset.woff2") format("woff2");
   unicode-range: U+20-7E;
 }
 /* Iosevka Italic **/
@@ -49,7 +49,7 @@
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url("/fonts/Iosevka-ExtendedItalic-subset.woff2") format("woff2");
+  src: url("/fonts/iosevka-extendeditalic-subset.woff2") format("woff2");
   unicode-range: U+20-7E;
 }
 /* Iosevka Bold **/
@@ -58,7 +58,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url("/fonts/Iosevka-ExtendedBold-subset.woff2") format("woff2");
+  src: url("/fonts/iosevka-extendedbold-subset.woff2") format("woff2");
   unicode-range: U+20-7E;
 }
 /* Iosevka Bold Italic **/
@@ -67,6 +67,6 @@
   font-style: italic;
   font-weight: 700;
   font-display: swap;
-  src: url("/fonts/Iosevka-ExtendedBoldItalic-subset.woff2") format("woff2");
+  src: url("/fonts/iosevka-extendedbolditalic-subset.woff2") format("woff2");
   unicode-range: U+20-7E;
 }
