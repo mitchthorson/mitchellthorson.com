@@ -15,6 +15,7 @@
   const cleanAwards = awards.map(cleanAward);
 </script>
 
+
 ## About
 
 Hello, welcome to my website! My name is Mitchell Thorson, and I'm a data visualization specialist, web developer and information designer based in Brooklyn, New York. 
