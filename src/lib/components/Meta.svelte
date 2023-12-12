@@ -47,6 +47,9 @@
     name="og:description"
     content={description}
   />
+  <meta name="og:image" content={social_image}/>
+  <meta property="og:image:width" content="1080" />
+  <meta property="og:image:height" content="585" />
 
   <!-- Twitter meta tags -->
   <meta name="twitter:card" content="summary" />
@@ -58,6 +61,7 @@
   />
   <meta name="twitter:site" content="@mitchthorson" />
   <meta name="twitter:creator" content="@mitchthorson" />
+  <meta name="twitter:image" content={social_image}/>
 
   <!-- Mastodon verification -->
   <link rel="me" href="https://mastodon.social/@mitchthorson" />
