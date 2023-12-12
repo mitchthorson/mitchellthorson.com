@@ -8,7 +8,7 @@
   /** @type {string} */
   export let social_image = "https://media.mitchellthorson.com/projects/project-promo.jpg";
   /** @type {string} */
-  export let description = "Mitchell Thorson data visualization specialist, web developer and information designer."
+  export let description = "Mitchell is a data visualization specialist, web developer and information designer."
 
 
 
