@@ -26,17 +26,12 @@
     margin: 0 auto 2rem 0;
   }
   thead th {
-    background: rgba(28, 174, 86, .1);
+    border-bottom: solid 1px var(--color-accent);
   }
   thead th, tbody td {
     text-align: left;
-    border-bottom: solid 1px var(--color-accent);
     padding: 0.75rem;
     font-size: 1.2rem;
-  }
-
-  tr td:first-child, tr th:first-child {
-    border-right: solid 1px var(--color-accent);
   }
 
   thead th {
@@ -44,7 +39,7 @@
   }
 
   tr:last-child td {
-    border-bottom: none;
+    border-bottom: solid 1px var(--color-accent);
   }
 
   tbody tr td a {
