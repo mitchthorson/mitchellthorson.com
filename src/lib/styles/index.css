@@ -2,17 +2,22 @@
 @import "./fonts.css";
 
 :root {
-	--color-accent: #1CAE56;
-  --color-background: #161F1A;
-  --color-main: #3d3438;
+  --color-dark-green: #161F1A;
+	--color-light-green: #1CAE56;
+  --color-mid-green: #1B661A;
+  --color-white: #FDEEE6;
+  --color-black: #3d3438;
   --color-accent-light: rgba(28, 174, 86, .5);
 	--content-width: 900px;
   --font-family-main: "Iosevka Extended", monospace;
   --font-family-alt: Iosevka, monospace;
+  --color-main: var(--color-black);
+	--color-accent: var(--color-mid-green);
+  --color-background: var(--color-white);
 }
 
 body {
-  background: --var(color-background);
+  background: var(--color-background);
 	color: var(--color-main);
   font-family: var(--font-family-main);
   font-size: 17px;
@@ -39,6 +44,8 @@ body {
 a {
 	color: var(--color-accent);
 	text-decoration: underline;
+	text-decoration-color: var(--color-accent);
+  text-underline-offset: 3px;
 }
 
 p {
@@ -77,14 +84,14 @@ code, pre {
 }
 
 @media (prefers-color-scheme: dark) {
+  :root {
+    --color-accent: var(--color-light-green);
+    --color-background: var(--color-dark-green);
+    --color-main: var(--color-white);
+  }
   body {
     background: #161F1A;
     color: #FAE5D9;
-  }
-  :root {
-    --color-accent: #1CAE56;
-    --color-background: #161F1A;
-    --color-main: #FAE5D9;
   }
 }
 
