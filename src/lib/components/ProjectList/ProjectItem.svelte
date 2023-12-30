@@ -70,7 +70,7 @@
 	.project-item-text-wrap {
 		margin-top: 1rem;
 		font-size: 0.8em;
-		line-height: 1.2;
+		line-height: 1.4;
 	}
   .project-item-title {
     font-weight: bold;

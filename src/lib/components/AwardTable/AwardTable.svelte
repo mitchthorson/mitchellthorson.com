@@ -44,7 +44,7 @@
 
   tbody tr td a {
     color: var(--color-main);
-    text-decoration: underline;
+    /* text-decoration: underline; */
   }
 
 </style>
