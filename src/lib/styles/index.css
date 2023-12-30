@@ -1,0 +1,105 @@
+@import "./reset.css";
+@import "./fonts.css";
+
+:root {
+  --color-dark-green: #161F1A;
+	--color-light-green: #1CAE56;
+  --color-mid-green: #1B661A;
+  /* --color-white: #FDEEE6; */
+  --color-white: #FFF8F4;
+  --color-black: #3d3438;
+  --color-accent-light: rgba(28, 174, 86, .5);
+	--content-width: 900px;
+  --font-family-main: "Iosevka Extended", monospace;
+  --font-family-alt: Iosevka, monospace;
+  --color-main: var(--color-black);
+	--color-accent: var(--color-mid-green);
+  --color-background: var(--color-white);
+  --color-text: var(--color-black);
+}
+
+body {
+  background: var(--color-background);
+	color: var(--color-main);
+  font-family: var(--font-family-main);
+  font-size: 17px;
+  line-height: 1.4;
+}
+
+
+::-moz-selection { /* Code for Firefox */
+  /* color: red; */
+  background: var(--color-accent-light);
+}
+
+::selection {
+  /* color: red; */
+  background: var(--color-accent-light);
+}
+
+@media(min-width: 768px) {
+  body {
+    font-size: 22px;
+  }
+}
+
+a {
+	color: var(--color-text);
+	text-decoration: underline;
+	text-decoration-color: var(--color-accent);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 5px;
+}
+
+a:hover {
+  color: var(--color-accent);
+}
+
+p {
+  margin-bottom: 2rem;
+}
+
+p.timestamp {
+  color: var(--color-accent);
+  font-style: italic;
+}
+
+h2 {
+  font-size: 1.7rem;
+  font-family: var(--font-family-alt);
+  font-weight: bold;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
+ul {
+  margin-bottom: 2rem;
+}
+li {
+  margin: 0 0 0 2rem;
+  text-indent: -1rem;
+}
+li::before {
+  display: inline-block;
+  content: "-";
+  width: 1em;
+}
+
+code, pre {
+  background: rgba(28, 174, 86, 0.1);
+  padding: 0.25em;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-accent: var(--color-light-green);
+    --color-background: var(--color-dark-green);
+    --color-main: var(--color-white);
+    --color-text: var(--color-white);
+  }
+  body {
+    background: #161F1A;
+    color: #FAE5D9;
+  }
+}
+

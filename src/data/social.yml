@@ -1,8 +1,13 @@
-- platform: Twitter
-  url: https://twitter.com/mitchthorson
 - platform: Github
   url: https://www.github.com/mitchthorson
-- platform: Email
-  url: mailto:mitch.thorson@protonmail.com
+- platform: Mastodon
+  url: https://mastodon.social/@mitchthorson
+- platform: Linkedin
+  url: https://www.linkedin.com/in/mitchthorson/
+- platform: Bluesky
+  url: https://bsky.app/profile/mitchellthorson.com
+- platform: Twitter
+  url: https://twitter.com/mitchthorson
 - platform: Keybase
   url: https://keybase.io/mthorson
+
