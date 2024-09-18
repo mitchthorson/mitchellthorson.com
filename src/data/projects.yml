@@ -1,3 +1,10 @@
+- title: Upward Mobility data dashboard
+  date: 2024-09-17
+  url: https://upward-mobility.urban.org/dashboard
+  image: upward-mobility
+  alt_text: A series of charts showing upward mobility data by county
+  organization: Urban Institute
+  highlight: true
 - title: LeBron James has captured the scoring title. We visualized every shot.
   date: 2023-02-08
   url: https://www.usatoday.com/in-depth/graphics/2023/02/08/lebron-james-career/11018976002/
@@ -140,7 +147,7 @@
   highlight: true
 - title: California is burning
   date: 2018-08-07
-  url: https://www.usatoday.com/pages/interactives/news/california-wildfires-carr-fire-data/ 
+  url: https://www.usatoday.com/pages/interactives/news/california-wildfires-carr-fire-data/
   image: california-burning-2
   alt_text: project thumb
   organization: USA Today
