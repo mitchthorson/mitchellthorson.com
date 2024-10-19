@@ -1,3 +1,31 @@
+- title: Upward Mobility data dashboard
+  date: 2024-09-17
+  url: https://upward-mobility.urban.org/dashboard
+  image: upward-mobility
+  alt_text: A series of charts showing upward mobility data by county
+  organization: Urban Institute
+  highlight: true
+- title: Nine Charts about Wealth Inequality in America
+  date: 2024-04-25
+  url: https://apps.urban.org/features/wealth-inequality-charts/
+  image: wealth_inequality
+  alt_text: A line chart that shows the gap between average family wealth held by Black and white Americans
+  organization: Urban Institute
+  highlight: false
+- title: How the Federal Income Tax System Can Worsen Racial Disparities
+  date: 2024-02-14
+  url: https://apps.urban.org/features/federal-income-tax-system-can-worsen-racial-disparities/
+  image: federal_income_tax
+  alt_text: A chart showing how the earned income tax and the child tax credit combine across different income levels
+  organization: Urban Institute
+  highlight: false
+- title: Is Federal Infrastructure Spending Advancing Racial and Economic Equity?
+  date: 2023-10-25
+  url: https://apps.urban.org/features/infrastructure-spending-states-counties/
+  image: federal_infrastructure
+  alt_text: A map showing level of funding by state for the National Highway Performance Program
+  organization: Urban Institute
+  highlight: false
 - title: LeBron James has captured the scoring title. We visualized every shot.
   date: 2023-02-08
   url: https://www.usatoday.com/in-depth/graphics/2023/02/08/lebron-james-career/11018976002/
@@ -140,7 +168,7 @@
   highlight: true
 - title: California is burning
   date: 2018-08-07
-  url: https://www.usatoday.com/pages/interactives/news/california-wildfires-carr-fire-data/ 
+  url: https://www.usatoday.com/pages/interactives/news/california-wildfires-carr-fire-data/
   image: california-burning-2
   alt_text: project thumb
   organization: USA Today
