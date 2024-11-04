@@ -11,21 +11,21 @@
   image: wealth_inequality
   alt_text: A line chart that shows the gap between average family wealth held by Black and white Americans
   organization: Urban Institute
-  highlight: false
+  highlight: true
 - title: How the Federal Income Tax System Can Worsen Racial Disparities
   date: 2024-02-14
   url: https://apps.urban.org/features/federal-income-tax-system-can-worsen-racial-disparities/
   image: federal_income_tax
   alt_text: A chart showing how the earned income tax and the child tax credit combine across different income levels
   organization: Urban Institute
-  highlight: false
+  highlight: true
 - title: Is Federal Infrastructure Spending Advancing Racial and Economic Equity?
   date: 2023-10-25
   url: https://apps.urban.org/features/infrastructure-spending-states-counties/
   image: federal_infrastructure
   alt_text: A map showing level of funding by state for the National Highway Performance Program
   organization: Urban Institute
-  highlight: false
+  highlight: true
 - title: LeBron James has captured the scoring title. We visualized every shot.
   date: 2023-02-08
   url: https://www.usatoday.com/in-depth/graphics/2023/02/08/lebron-james-career/11018976002/
@@ -46,35 +46,35 @@
   image: surfside-condo
   alt_text: Illustration of a floor of the collapsed condo tower in Surfside, Florida
   organization: USA Today
-  highlight: true
+  highlight: false
 - title: "'Tornado Alley' is expanding: Southern states see more twisters now than ever before"
   date: 2021-06-17
   url: https://www.usatoday.com/in-depth/graphics/2021/06/17/how-expansion-tornado-alley-affect-more-southern-states/7689547002/
   image: tornadoes_historical
   alt_text: Charts and maps showing historical tornado data in the U.S.
   organization: USA Today
-  highlight: true
+  highlight: false
 - title: When Trump started his speech before the Capitol riot, talk on Parler turned to civil war
   date: 2021-02-01
   url: https://www.usatoday.com/in-depth/news/2021/02/01/civil-war-during-trumps-pre-riot-speech-parler-talk-grew-darker/4297165001/
   image: parler_sentiment
   alt_text: A chart showing the rise and fall of average sentiment on the social media app Parler on Jan. 6, 2021
   organization: USA Today
-  highlight: true
+  highlight: false
 - title: It may not have started here, but the novel coronavirus became a US tragedy
   date: 2020-12-10
   url: https://www.usatoday.com/in-depth/news/2020/12/10/how-u-s-failed-meet-coronavirus-pandemic-challenge/3507121001/
   image: american_virus_map
   alt_text: A map showing the routes of 300,943 international flights into the U.S. in the first several months of 2020
   organization: USA Today
-  highlight: true
+  highlight: false
 - title: Four maps that show how America voted in the 2020 election with results by county, number of voters
   date: 2020-11-10
   url: https://www.usatoday.com/in-depth/graphics/2020/11/10/election-maps-2020-america-county-results-more-voters/6226197002/
   image: 2020-election-maps
   alt_text: 2020 election results in 4 maps
   organization: USA Today
-  highlight: true
+  highlight: false
 - title: Census response in poor and minority neighborhoods is undermined by coronavirus
   date: 2020-09-04
   url: https://www.usatoday.com/in-depth/news/2020/09/04/census-response-poor-minority-tracts-hindered-coronavirus/5707495002/
