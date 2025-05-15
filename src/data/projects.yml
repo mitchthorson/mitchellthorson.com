@@ -1,3 +1,24 @@
+- title: The Education-to-Workforce Framework data tool
+  date: 2025-05-13
+  url: https://apps.urban.org/features/education-workforce-framework-data/
+  image: e2w-promo
+  alt_text: A choropleth map showing counties in the United States
+  organization: Urban Institute
+  highlight: true
+- title: A Snapshot of Asian Wealth in America
+  date: 2025-05-01
+  url: https://apps.urban.org/features/asian-american-wealth-snapshot/
+  image: asian-wealth-promo
+  alt_text: A chart showing retirement equity among those with retirement accounts broken out by race and ethnicity for all adults and adults over 50
+  organization: Urban Institute
+  highlight: true
+- title: How Would SNAP Benefit Cuts Affect Your Community?
+  date: 2025-03-05
+  url: https://www.urban.org/data-tools/snap-cuts-state-county-gaps
+  image: snap-gap
+  alt_text: A cartogram showing U.S. states and the gap between the maximum SNAP benefit and the average cost of a modestly priced meal
+  organization: Urban Institute
+  highlight: true
 - title: Upward Mobility data dashboard
   date: 2024-09-17
   url: https://upward-mobility.urban.org/dashboard
@@ -17,6 +38,13 @@
   url: https://apps.urban.org/features/federal-income-tax-system-can-worsen-racial-disparities/
   image: federal_income_tax
   alt_text: A chart showing how the earned income tax and the child tax credit combine across different income levels
+  organization: Urban Institute
+  highlight: true
+- title: Urban Institute data visualization component library
+  date: 2024-01-01
+  url: https://urbaninstitute.github.io/dataviz-components/
+  image: component-library-promo
+  alt_text: Screenshot of a component library documentation website
   organization: Urban Institute
   highlight: true
 - title: Is Federal Infrastructure Spending Advancing Racial and Economic Equity?
