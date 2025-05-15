@@ -28,6 +28,7 @@
   },
   "type": "module",
   "dependencies": {
+    "@mitchthorson/image-prepub": "^0.1.0",
     "d3-time-format": "^4.1.0"
   }
 }
