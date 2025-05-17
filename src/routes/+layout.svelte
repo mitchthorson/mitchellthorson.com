@@ -7,7 +7,7 @@
 <div class="content-wrap">
   <slot />
   <footer class="main-width site-footer">
-    <p>&copy;2023 Mitchell Thorson</p>
+    <p>&copy;2023–2025 Mitchell Thorson</p>
   </footer>
 </div>
 
