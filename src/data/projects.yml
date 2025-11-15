@@ -1,3 +1,17 @@
+- title: The American Affordability Tracker
+  date: 2025-10-28
+  url: https://www.urban.org/data-tools/american-affordability-tracker
+  image: urban-affordability-tracker
+  alt_text: A line chart showing trends of student loan dilenquency by U.S. state.
+  organization: Urban Institute
+  highlight: true
+- title: Are Medicaid Enrollees Accessing Tobacco and Nicotine Dependence Treatment in Your State?
+  date: 2025-10-06
+  url: https://www.urban.org/data-tools/are-medicaid-enrollees-accessing-tobacco-and-nicotine-dependence-treatment-your-state
+  image: urban-tobacco-medicaid-treatment-trends
+  alt_text: A area chart showing trends of perscriptions per enrollee of tobacco dependence treatments
+  organization: Urban Institute
+  highlight: true
 - title: The Education-to-Workforce Framework data tool
   date: 2025-05-13
   url: https://apps.urban.org/features/education-workforce-framework-data/
