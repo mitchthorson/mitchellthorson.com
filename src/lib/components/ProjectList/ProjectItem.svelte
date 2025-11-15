@@ -12,6 +12,8 @@
 
 <script>
   import { timeFormat } from "d3-time-format";
+  import { IMAGE_BASE_URL } from "$lib/utils/consts.js";
+
   /** @type {Project} */
   export let project;
 
@@ -19,23 +21,22 @@
 
   const formatTime = timeFormat("%B %Y");
 
-  const image_base = "https://media.mitchellthorson.com/projects"
 </script>
 
 <li class="project-item">
   {#if show_images}
     <picture class="project-item-thumbnail">
       <!-- AVIF image for browsers that support AVIF -->
-      <source srcset="{image_base}/{project.image}.avif" type="image/avif">
+      <source srcset="{IMAGE_BASE_URL}/{project.image}.avif" type="image/avif">
 
       <!-- WebP image for browsers that support WebP -->
-      <source srcset="{image_base}/{project.image}.webp" type="image/webp">
+      <source srcset="{IMAGE_BASE_URL}/{project.image}.webp" type="image/webp">
 
       <!-- JPEG image for browsers that do not support WebP -->
-      <source srcset="{image_base}/{project.image}.jpg" type="image/jpeg">
+      <source srcset="{IMAGE_BASE_URL}/{project.image}.jpg" type="image/jpeg">
 
       <!-- Fallback image for browsers that do not support the <picture> element -->
-      <img src="{image_base}/{project.image}.jpg" alt={project.alt_text} width="600" height="600">
+      <img src="{IMAGE_BASE_URL}/{project.image}.jpg" alt={project.alt_text} width="600" height="600">
     </picture>
 
     <!-- <img src={project.image} alt={project.alt_text} class="project-item-thumbnail" /> -->

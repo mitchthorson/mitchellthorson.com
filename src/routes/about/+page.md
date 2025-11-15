@@ -3,6 +3,7 @@
   import SocialBox from "$components/SocialBox/SocialBox.svelte";
   import AwardTable from "$components/AwardTable/AwardTable.svelte";
   import awards from "$data/awards.yml";
+  import { IMAGE_BASE_URL } from "$lib/utils/consts.js";
   
   function cleanAward(rawAward) {
     return {
@@ -13,10 +14,24 @@
   }
   
   const cleanAwards = awards.map(cleanAward);
+
+  const PROFILE_PHOTO = `${IMAGE_BASE_URL}/profile-photo-bw_1280`;
 </script>
 
 
 ## About
+
+<div class="profile-photo-container">
+  <picture class="profile-photo">
+    <source srcset="{PROFILE_PHOTO}.avif" type="image/avif">
+
+    <source srcset="{PROFILE_PHOTO}.webp" type="image/webp">
+
+    <source srcset="{PROFILE_PHOTO}.jpg" type="image/jpeg">
+
+    <img src="{PROFILE_PHOTO}.jpg" alt="Photo of the author" width="600" height="600">
+  </picture>
+</div>
 
 Hello, welcome to my website! My name is Mitchell Thorson, and I'm a data visualization specialist, web developer and information designer based in Brooklyn, New York. 
 
@@ -56,3 +71,20 @@ This website is built with <a href="https://kit.svelte.dev" target="_blank">Svel
 All text is set in <a href="https://typeof.net/Iosevka/" target="_blank">Iosevka</a>. 
 
 <p class="timestamp">December 2023, Brooklyn New York</p>
+
+<style>
+
+.profile-photo-container {
+  max-width: 360px;
+  margin-inline: 0 auto;
+  margin-block: 0 2rem;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.profile-photo img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+</style>
