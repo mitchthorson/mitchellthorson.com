@@ -7,6 +7,7 @@
    * @property {string} image
    * @property {string} alt_text
    * @property {string} organization
+   * @property {string} [slug]
    */
 </script>
 
@@ -43,7 +44,11 @@
   {/if}
   <div class="project-item-text-wrap">
     <h3 class="project-item-title">
-      <a href={project.url} class="project-list-item-link" target="_blank">{project.title}</a>
+      <a
+        href={project.slug ? `/work/${project.slug}` : project.url}
+        target={project.slug ? undefined : "_blank"}
+        class="project-list-item-link"
+      >{project.title}</a>
     </h3>
     <p class="project-item-info">
       {formatTime(project.date)} <span class="project-org">{project.organization}</span>
@@ -65,6 +70,7 @@
     max-width: 100%
   }
   .project-item-thumbnail img {
+    border-radius: 16px;
     max-width: 100%;
     height: auto;
   }

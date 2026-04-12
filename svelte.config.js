@@ -10,6 +10,9 @@ const config = {
       pages: "dist",
       assets: "dist",
     }),
+    prerender: {
+      handleHttpError: "warn",
+    },
     alias: {
       "$components/*": "./src/lib/components/*",
       "$data/*": "./src/data/*",

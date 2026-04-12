@@ -1,4 +1,5 @@
 - title: The American Affordability Tracker
+  slug: urban-affordability-tracker
   date: 2025-10-28
   url: https://www.urban.org/data-tools/american-affordability-tracker
   image: urban-affordability-tracker
@@ -71,11 +72,13 @@
 - title: LeBron James has captured the scoring title. We visualized every shot.
   date: 2023-02-08
   url: https://www.usatoday.com/in-depth/graphics/2023/02/08/lebron-james-career/11018976002/
+  slug: lebron-scoring
   image: lebron
   alt_text: Heatmap charts of LeBron James's fieldgoal attempts by season.
   organization: USA Today
   highlight: true
 - title: Mass killings database reveals trends, details and anguish in every US event since 2006
+  slug: mass-killings-tracker
   date: 2022-08-18
   url: https://www.usatoday.com/in-depth/graphics/2022/08/18/mass-killings-database-us-events-since-2006/9705311002/
   image: mass_killings
@@ -91,6 +94,7 @@
   highlight: false
 - title: "'Tornado Alley' is expanding: Southern states see more twisters now than ever before"
   date: 2021-06-17
+  slug: tornado-alley
   url: https://www.usatoday.com/in-depth/graphics/2021/06/17/how-expansion-tornado-alley-affect-more-southern-states/7689547002/
   image: tornadoes_historical
   alt_text: Charts and maps showing historical tornado data in the U.S.
@@ -98,6 +102,7 @@
   highlight: false
 - title: When Trump started his speech before the Capitol riot, talk on Parler turned to civil war
   date: 2021-02-01
+  slug: parler
   url: https://www.usatoday.com/in-depth/news/2021/02/01/civil-war-during-trumps-pre-riot-speech-parler-talk-grew-darker/4297165001/
   image: parler_sentiment
   alt_text: A chart showing the rise and fall of average sentiment on the social media app Parler on Jan. 6, 2021
@@ -105,6 +110,7 @@
   highlight: false
 - title: It may not have started here, but the novel coronavirus became a US tragedy
   date: 2020-12-10
+  slug: american-virus
   url: https://www.usatoday.com/in-depth/news/2020/12/10/how-u-s-failed-meet-coronavirus-pandemic-challenge/3507121001/
   image: american_virus_map
   alt_text: A map showing the routes of 300,943 international flights into the U.S. in the first several months of 2020
@@ -113,6 +119,7 @@
 - title: Four maps that show how America voted in the 2020 election with results by county, number of voters
   date: 2020-11-10
   url: https://www.usatoday.com/in-depth/graphics/2020/11/10/election-maps-2020-america-county-results-more-voters/6226197002/
+  slug: election-2020
   image: 2020-election-maps
   alt_text: 2020 election results in 4 maps
   organization: USA Today
