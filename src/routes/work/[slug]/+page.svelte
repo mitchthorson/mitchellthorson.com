@@ -21,7 +21,7 @@
 
 <main class="main-width project-page">
   <header class="project-header">
-    <h2 class="site-subhead">{project.title}</h2>
+    <h2 class="project-title">{project.title}</h2>
     <p class="project-meta">
       {formatTime(project.date)}
       <span class="project-org">{project.organization}</span>
@@ -50,6 +50,10 @@
 <style>
   .project-header {
     margin-bottom: 2rem;
+  }
+  .project-title {
+    font-size: 1.5rem;
+    font-style: normal;
   }
   .project-meta {
     font-size: 0.8em;

@@ -2,6 +2,7 @@
 skills:
   - dataviz
   - front end dev
+  - digital cartography
 gallery:
   - tornado-alley/tornado-alley-1
   - tornado-alley/tornado-alley-2

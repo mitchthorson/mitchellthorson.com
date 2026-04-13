@@ -16,6 +16,7 @@
 	--color-accent: var(--color-mid-green);
   --color-background: var(--color-white);
   --color-text: var(--color-black);
+  --border-radius: 16px;
 }
 
 body {
@@ -88,6 +89,10 @@ li::before {
 code, pre {
   background: rgba(28, 174, 86, 0.1);
   padding: 0.25em;
+}
+
+em {
+  font-style: italic;
 }
 
 @media (prefers-color-scheme: dark) {

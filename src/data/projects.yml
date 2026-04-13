@@ -128,11 +128,13 @@
   date: 2020-09-04
   url: https://www.usatoday.com/in-depth/news/2020/09/04/census-response-poor-minority-tracts-hindered-coronavirus/5707495002/
   image: 2020-census-response-2
+  slug: census-2020-map
   alt_text: 2020 Census response rates mapped by census tract
   organization: USA Today
   highlight: false
 - title: In Phoenix, rising temperatures day and night kill more people each year
   date: 2020-08-27
+  slug: az-heat
   url: https://www.azcentral.com/in-depth/news/2020/08/26/heat-killing-more-people-cities-sizzle-hotter-temperatures/4553439002/
   image: rising_temps_image
   alt_text: Charts showing number of days above 90 degrees in various U.S. cities
@@ -146,6 +148,7 @@
   organization: USA Today
   highlight: true
 - title: Remember Lake of the Ozarks party pics? Many other places boomed Memorial Day
+  slug: memorial-day-mobility-2020
   date: 2020-05-30
   url: https://www.usatoday.com/in-depth/news/2020/05/30/memorial-day-traffic-surge-lake-ozarks-resort-and-national-parks/5290847002/
   image: mobility_spikes
@@ -168,6 +171,7 @@
   highlight: true
 - title: The Chiefs and 49ers are in the Super Bowl. But Dallas Cowboys have the most ticket-selling power.
   date: 2020-01-31
+  slug: nfl-tickets
   url: https://www.usatoday.com/in-depth/news/2020/01/31/super-bowl-teams-cant-match-dallas-cowboys-ticket-selling-power/4607508002/
   image: nfl-ticket-sales
   alt_text: NFL ticket sales by ZIP code
@@ -190,6 +194,7 @@
 - title: Where will the West's next deadly wildfire strike? The risks are everywhere
   date: 2019-07-23
   url: https://www.azcentral.com/in-depth/news/investigations/2019/07/22/wildfire-risks-more-than-500-spots-have-greater-hazard-than-paradise/1801629001/
+  slug: ahead-of-the-fire
   image: wildfires_image
   alt_text: wildfire hazard potential
   organization: The Arizona Republic
@@ -202,6 +207,7 @@
   organization: USA Today
   highlight: true
 - title: Seniors were sold a risk-free retirement with reverse mortgages. Now they face foreclosure.
+  slug: reverse-mortgages
   date: 2019-06-12
   url: https://www.usatoday.com/in-depth/news/investigations/2019/06/11/seniors-face-foreclosure-retirement-after-failed-reverse-mortgage/1329043001/
   image: reverse-mortgages-map
@@ -211,6 +217,7 @@
 - title: "Copy, paste, legislate: We looked for legislation that was written by special interests. We found it in all 50 states."
   date: 2019-04-03
   url: https://www.usatoday.com/pages/interactives/asbestos-sharia-law-model-bills-lobbyists-special-interests-influence-state-laws/
+  slug: copy-paste-legislate
   image: model-legislation-1
   alt_text: project thumb
   organization: USA Today
@@ -218,6 +225,7 @@
 - title: California is burning
   date: 2018-08-07
   url: https://www.usatoday.com/pages/interactives/news/california-wildfires-carr-fire-data/
+  slug: california-fires
   image: california-burning-2
   alt_text: project thumb
   organization: USA Today
@@ -231,6 +239,7 @@
   highlight: false
 - title: We looked at every mile of the U.S.-Mexico border. Now you can, too – right here.
   date: 2017-09-08
+  slug: border-wall
   url: https://www.usatoday.com/border-wall/us-mexico-interactive-border-map/
   image: border-wall
   alt_text: project thumb

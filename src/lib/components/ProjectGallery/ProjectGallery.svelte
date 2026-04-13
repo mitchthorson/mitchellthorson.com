@@ -46,6 +46,8 @@
       role="group"
       aria-roledescription="slide"
       aria-label="Slide {selectedIndex + 1} of {images.length}"
+      class="gallery-selected-container"
+      class:single-image={!hasMultiple}
     >
       <picture class="gallery-selected">
         <source srcset="{IMAGE_BASE_URL}/{selected}.avif" type="image/avif">
@@ -96,6 +98,9 @@
   }
   .gallery:focus:not(:focus-visible) {
     outline: none;
+  }
+  .gallery-selected-container.single-image {
+    margin-block-end: 2rem;
   }
   .gallery-selected img {
     width: 100%;
